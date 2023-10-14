@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./styles/style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="./styles/lightbox.css">
+</head>
+
+<body>
+      <header style="transition: 0.5s;" class="header">
+            <div class="header__container">
+                  <div class="logo__menu-link">
+                        <a class="" href="#">
+                              <img class="logo" src="./images/logos/01.png" alt="">
+                        </a>
+                        <a class="main-link" href="#">Main</a>
+                  </div>
+                  <div class="search__input-box">
+                        <ion-icon class="input__icon header-icon 
+                        input__search-icon icon-active" name="search-outline"></ion-icon>
+
+                        <ion-icon class="input__icon 
+                        header-icon input__close-icon
+                         icon-disactive" name="close-outline"></ion-icon>
+
+                        <input type="text" name="search" id="search" class="search__input">
+
+                        <ion-icon class="send-icon header-icon
+                        icon-disactive" name="send-outline"></ion-icon>
+
+                        <div class="dropdown-container scale-none">
+                              <div>
+                                    <h3 class="dropdown-title">Most pupular themes</h3>
+                              </div>
+                              <div class="most-popular-themes">
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-1">
+                                                <h3 class="popular-title">mountains</h3>
+                                          </div>
+                                    </div>
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-2">
+                                                <h3 class="popular-title">woods</h3>
+                                          </div>
+                                    </div>
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-3">
+                                                <h3 class="popular-title">lakes</h3>
+                                          </div>
+                                    </div>
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-4">
+                                                <h3 class="popular-title">beaches</h3>
+                                          </div>
+                                    </div>
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-5">
+                                                <h3 class="popular-title">jungles</h3>
+                                          </div>
+                                    </div>
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-6">
+                                                <h3 class="popular-title">savanna</h3>
+                                          </div>
+                                    </div>
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-7">
+                                                <h3 class="popular-title">sahara deserts</h3>
+                                          </div>
+                                    </div>
+                                    <div class="most-popular">
+                                          <div class="most-popular-item popular-item-8">
+                                                <h3 class="popular-title">city</h3>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="notification-container">
+                        <ion-icon class="notification-icon header-icon" name="notifications-outline"></ion-icon>
+                        <div class="notification-div notification-div-default">
+                              <h3 class="no-notification">no notifications</h3>
+                              <div class="clear-notification">
+                                    <ion-icon class="notification__clear-icon" name="close-circle-outline"></ion-icon>
+                              </div>
+                        </div>
+                      
+                              
+                  <ion-icon class="registration-icon" name="person-outline"></ion-icon>  
+                  <div class="registration-dropdown reg-dropdown-disactive">
+                        <a class="reg-dropdown-link" href="./reg.html">Sign in
+                              <ion-icon name="log-in-outline"></ion-icon>
+                        </a>
+                  </div>
+                            
+                  </div>
+            </div>
+      </header>
+
+      <div class="gallery">
+            <a href="./images/citys/01.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/01.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+
+            <a href="./images/jungles/01.jpg" data-lightbox="mygallery" style="--bg: url(../images/jungles/01.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+
+            <a href="./images/savanna/01.jpg" data-lightbox="mygallery" style="--bg: url(../images/savanna/01.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/02.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/02.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/lakes/01.jpg" data-lightbox="mygallery" style="--bg: url(../images/lakes/01.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/deserts/01.jpg" data-lightbox="mygallery" style="--bg: url(../images/deserts/01.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/mountains/01.jpg" data-lightbox="mygallery"
+                  style="--bg: url(../images/mountains/01.jpg);" class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/01.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/01.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/deserts/02.jpg" data-lightbox="mygallery" style="--bg: url(../images/deserts/02.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/03.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/03.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/lakes/02.jpg" data-lightbox="mygallery" style="--bg: url(../images/lakes/02.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/savanna/02.jpg" data-lightbox="mygallery" style="--bg: url(../images/savanna/02.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/02.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/02.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/beachs/01.jpg" data-lightbox="mygallery" style="--bg: url(../images/beachs/01.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/mountains/02.jpg" data-lightbox="mygallery"
+                  style="--bg: url(../images/mountains/02.jpg);" class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/deserts/03.jpg" data-lightbox="mygallery" style="--bg: url(../images/deserts/03.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/04.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/04.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/03.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/03.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/beachs/02.jpg" data-lightbox="mygallery" style="--bg: url(../images/beachs/02.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/savanna/03.jpg" data-lightbox="mygallery" style="--bg: url(../images/savanna/03.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/mountains/03.jpg" data-lightbox="mygallery"
+                  style="--bg: url(../images/mountains/03.jpg);" class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/jungles/02.jpg" data-lightbox="mygallery" style="--bg: url(../images/jungles/02.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/lakes/03.jpg" data-lightbox="mygallery" style="--bg: url(../images/lakes/03.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/04.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/04.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/05.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/05.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/deserts/04.jpg" data-lightbox="mygallery" style="--bg: url(../images/deserts/04.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/mountains/04.jpg" data-lightbox="mygallery"
+                  style="--bg: url(../images/mountains/04.jpg);" class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/beachs/03.jpg" data-lightbox="mygallery" style="--bg: url(../images/beachs/03.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/lakes/04.jpg" data-lightbox="mygallery" style="--bg: url(../images/lakes/04.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/jungles/03.jpg" data-lightbox="mygallery" style="--bg: url(../images/jungles/03.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/savanna/04.jpg" data-lightbox="mygallery" style="--bg: url(../images/savanna/04.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/05.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/05.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/mountains/05.jpg" data-lightbox="mygallery"
+                  style="--bg: url(../images/mountains/05.jpg);" class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/06.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/06.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/lakes/05.jpg" data-lightbox="mygallery" style="--bg: url(../images/lakes/05.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/jungles/04.jpg" data-lightbox="mygallery" style="--bg: url(../images/jungles/04.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/beachs/04.jpg" data-lightbox="mygallery" style="--bg: url(../images/beachs/04.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/06.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/06.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/mountains/06.jpg" data-lightbox="mygallery"
+                  style="--bg: url(../images/mountains/06.jpg);" class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/savanna/05.jpg" data-lightbox="mygallery" style="--bg: url(../images/savanna/05.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/lakes/06.jpg" data-lightbox="mygallery" style="--bg: url(../images/lakes/06.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/jungles/05.jpg" data-lightbox="mygallery" style="--bg: url(../images/jungles/05.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/beachs/05.jpg" data-lightbox="mygallery" style="--bg: url(../images/beachs/05.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/07.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/07.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/07.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/07.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/lakes/07.jpg" data-lightbox="mygallery" style="--bg: url(../images/lakes/07.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/mountains/07.jpg" data-lightbox="mygallery"
+                  style="--bg: url(../images/mountains/07.jpg);" class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/savanna/06.jpg" data-lightbox="mygallery" style="--bg: url(../images/savanna/06.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/jungles/06.jpg" data-lightbox="mygallery" style="--bg: url(../images/jungles/06.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/08.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/08.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/woods/08.jpg" data-lightbox="mygallery" style="--bg: url(../images/woods/08.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/beachs/06.jpg" data-lightbox="mygallery" style="--bg: url(../images/beachs/06.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+            <a href="./images/citys/09.jpg" data-lightbox="mygallery" style="--bg: url(../images/citys/09.jpg);"
+                  class="gallery-item">
+                  <ion-icon class="gallery-item-icon" name="search-outline"></ion-icon>
+            </a>
+      </div>
+
+      <footer>
+            <div class="black-fon">
+                  <div class="footer__elements">
+                        <div class="footer-element">
+                              <div class="footer-element_content">
+                                    <h3>content</h3>
+                                    <ul>
+                                          <li>Calendar of festivities</li>
+                                          <li>New assets</li>
+                                          <li>The most popular content</li>
+                                          <li>Search trends</li>
+                                          <li>Blog</li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="footer-element">
+                              <div class="footer-element_content">
+                                    <h3>INFORMATION</h3>
+                                    <ul>
+                                          <li>Pricing</li>
+                                          <li>About us</li>
+                                          <li>Press room</li>
+                                          <li>API</li>
+                                          <li>Jobs</li>
+                                          <li>Sell your content</li>
+                                          <li>brand guidelines</li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="footer-element">
+                              <div class="footer-element_content">
+                                    <h3>LEGAL</h3>
+                                    <ul>
+                                          <li>Terms and conditions</li>
+                                          <li>License agreement</li>
+                                          <li>Privacy policy</li>
+                                          <li>Copyright information</li>
+                                          <li>Cookies policy</li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="footer-element">
+                              <div class="footer-element_content">
+                                    <h3>SOCIAL MEDIA</h3>
+                                    <div class="footer__media-icons">
+                                          <div class="media-icon">
+                                                <ion-icon name="logo-facebook"></ion-icon>
+                                          </div>
+                                          <div class="media-icon">
+                                                <ion-icon name="logo-instagram"></ion-icon>
+                                          </div>
+                                          <div class="media-icon">
+                                                <ion-icon name="logo-youtube"></ion-icon>
+                                          </div>
+                                          <div class="media-icon">
+                                                <ion-icon name="logo-linkedin"></ion-icon>
+                                          </div>
+                                    </div>
+                                    <div class="sign-up-container">
+                                          <p>Get exclusive assets sent</br> straight to your inbox</p>
+                                          <button> Sign up</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script src="./js/lightbox-plus-jquery.min.js"></script>
+      <script src="./js/reg.js"></script>
+      <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+
+@import './sass/vars';
+@import './sass/header';
+@import './sass/gallery';
+@import './sass/footer';
+@import './sass/reg';
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Raleway:wght@200&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body{
+      background-color: $bgColor;
+      position: relative;
+}
+
+a{
+      text-decoration: none;
+}
+
+.icon-active{
+ opacity: 1;
+}
+
+.icon-disactive{
+ opacity: 0;
+}
+
+.dblock{
+      display: block;
+}
+
+.dnone{
+      display: none;
+}
+
+.active{
+      opacity: 1;
+}
+
+.disactive{
+      opacity: 0;
+}
+
+.scale-none{
+      opacity: 0;
+      transform: scale(0);
+}
+
+.scale{
+      opacity: 1;
+      transform: scale(1);
+}
+
+a{
+      text-decoration: none;
+}
+
+li{
+      list-style: none;
+}
+
+.left{
+      transform: translateX(-500px);
+}
+
+.right{
+      transform: translateX(500px);
+}
+
+.center{
+      transform: translateX(0px);
+}
